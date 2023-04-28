@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-include './src/Calculadora.php';
+include './src/calculadora.php';
 
 final class CalculadoraTest extends TestCase
 {
@@ -9,5 +9,6 @@ final class CalculadoraTest extends TestCase
         $calc = new Calculadora(3,5);
         $this->assertEquals(8, $calc->suma());
     }
+
 }
 ?>
